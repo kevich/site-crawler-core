@@ -1,0 +1,13 @@
+.idea
+vendor
+composer.phar
+composer.lock
+report
+nbproject
+public/*/*.json
+public/*/*.xml
+.vagrant
+temp/log/*.log
+temp/log/*.log.*.gz
+temp/log/*.log-*.xz
+salt/minion

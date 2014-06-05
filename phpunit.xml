@@ -1,0 +1,22 @@
+<phpunit
+backupGlobals="false"
+backupStaticAttributes="false"
+colors="true"
+convertErrorsToExceptions="true"
+convertNoticesToExceptions="true"
+convertWarningsToExceptions="true"
+processIsolation="false"
+stopOnFailure="true"
+syntaxCheck="false"
+bootstrap="tests/bootstrap.php">
+    <testsuites>
+        <testsuite name="site-crawler-core">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <blacklist>
+            <directory suffix=".php">./vendor</directory>
+        </blacklist>
+    </filter>
+</phpunit>
