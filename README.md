@@ -7,4 +7,5 @@ Uses
 ----
 
 `guzzle` and `phantomjs` as clients
+
 `monolog` as logger
